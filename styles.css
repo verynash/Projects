@@ -1,6 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #f1e8e7;
+    background-color: #c5bfbe;
 }
 
 .wrapper {
@@ -22,7 +22,7 @@ h1, h2 {
 }
 
 h2 {
-    margin-top: -0.5rem;
+    margin-top: 0 rem;
 }
 
 .project-container {
