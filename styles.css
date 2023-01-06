@@ -1,6 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #67619e;
+    background-color: #f1e8e7;
 }
 
 .wrapper {
@@ -12,6 +12,8 @@ body {
 .header {
     display: flex;
     flex-flow: column;
+    margin: 3rem;
+    font-size: larger;
 }
 
 h1, h2 {
@@ -19,23 +21,29 @@ h1, h2 {
     
 }
 
+h2 {
+    margin-top: -0.5rem;
+}
+
 .project-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    margin: 3rem 40px 3rem 40px;
 }
 
 .project {
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
     align-items: center;
 }
 
 .box {
-    width: 20vw;
-    max-width: 160px;
-    height: 20vh;
-    max-height: 160px;
+    width: 160px;
+    max-width: 40vw;
+    height: 160px;
+    max-height: 40vh;
     border-radius: 8px;
     border: 2px solid black;
 }
@@ -62,4 +70,17 @@ h1, h2 {
 
 .box-5 {
     background-image: linear-gradient(to top left, #f6c275, #114b5d);
+}
+
+.footer {
+    margin-top: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
